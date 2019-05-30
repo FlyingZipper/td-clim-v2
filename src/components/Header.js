@@ -43,7 +43,7 @@ const Header = () => (
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-danger">Demande de soumission</a>
+            <a class="button">Demande de soumission</a>
           </div>
         </div>
       </div>

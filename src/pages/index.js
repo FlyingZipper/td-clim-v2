@@ -9,13 +9,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <section class="hero is-large">
-      <div class="hero-body">
+      <div class="hero-body lighter">
         <div class="container has-text-centered">
           <h1 class="title primary">
             <img src={Logo} />
             TD Climatisation
           </h1>
-          {/* <h2 class="subtitle">Hero subtitle</h2> */}
+          <h2 class="subtitle">Le confort chez vous</h2>
         </div>
       </div>
     </section>
