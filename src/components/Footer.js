@@ -31,11 +31,13 @@ const Footer = () => (
         <ul>
           <li>
             <h3>Email</h3>
-            <a href="/#">climatisationtd@gmail.com</a>
+            <a href="email:[climatisationtd@gmail.com]">
+              climatisationtd@gmail.com
+            </a>
           </li>
           <li>
             <h3>Phone</h3>
-            <a href="/#">(123) 456-6789</a>
+            <a href="tel:[(123) 456-6789]">(123) 456-6789</a>
           </li>
         </ul>
       </div>
