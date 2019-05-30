@@ -7,7 +7,7 @@ $title-strong-weight: inherit !default
 $title-sub-size: 0.75em !default
 $title-sup-size: 0.75em !default
 
-$subtitle-color: #e0e0e0 !default
+$subtitle-color: $grey-darker !default
 $subtitle-size: $size-4 !default
 $subtitle-weight: $weight-normal !default
 $subtitle-line-height: 1.25 !default
@@ -38,11 +38,17 @@ $subtitle-negative-margin: -1.25rem !default
     color: #ffffff
     font-size: 5em
     text-shadow: -1px 0 #444, 0 1px #444, 1px 0 #444, 0 -1px #444
+    +until($desktop)
+      font-size: 3.5em
+    +until($tablet)
+      font-size: 2em
     & > img
       height: 120px
       width: 120px
       position: relative
       top: 20px
+      +until($tablet)
+        display: none
   strong
     color: $title-strong-color
     font-weight: $title-strong-weight
@@ -61,6 +67,12 @@ $subtitle-negative-margin: -1.25rem !default
   font-size: $subtitle-size
   font-weight: $subtitle-weight
   line-height: $subtitle-line-height
+  &.white
+    color: $white
+  +until($desktop)
+    font-size: 1.25em
+  +until($tablet)
+    font-size: 1em
   strong
     color: $subtitle-strong-color
     font-weight: $subtitle-strong-weight

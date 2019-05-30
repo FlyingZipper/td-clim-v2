@@ -15,7 +15,7 @@ const IndexPage = () => (
             <img src={Logo} alt="" />
             TD Climatisation
           </h1>
-          <h2 class="subtitle">Le confort chez vous</h2>
+          <h2 class="subtitle white">Le confort chez vous</h2>
         </div>
       </div>
     </section>

@@ -36,3 +36,6 @@ div.columns.services > .column
                 color: #FFFFFF
     &:nth-child(1), &:nth-child(2)
         border-right: $border 1px solid
+        +until($tablet)
+            border-right: none
+            border-bottom: $border 1px solid
