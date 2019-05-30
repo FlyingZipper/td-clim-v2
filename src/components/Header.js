@@ -32,13 +32,13 @@ const Header = () => (
 
           <div class="navbar-dropdown">
             <a class="navbar-item">
-              <Link to="services/climatisation">Climatisation</Link>
+              <Link to="/services/climatisation">Climatisation</Link>
             </a>
             <a class="navbar-item">
-              <Link to="services/chauffage">Chauffage</Link>
+              <Link to="/services/chauffage">Chauffage</Link>
             </a>
             <a class="navbar-item">
-              <Link to="services/thermopompe">Thermopompe</Link>
+              <Link to="/services/thermopompe">Thermopompe</Link>
             </a>
           </div>
         </div>

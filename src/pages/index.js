@@ -22,15 +22,15 @@ const IndexPage = () => (
     <section class="section no-padding">
       <div class="container">
         <div class="columns services is-vcentered">
-          <Link class="column climatisation" to="services/climatisation">
+          <Link class="column climatisation" to="/services/climatisation">
             <i class="fas fa-snowflake" />
             <div>Climatisation</div>
           </Link>
-          <Link class="column chauffage" to="services/chauffage">
+          <Link class="column chauffage" to="/services/chauffage">
             <i class="fab fa-gripfire" />
             <div>Chauffage</div>
           </Link>
-          <Link class="column thermopompe" to="services/thermopompe">
+          <Link class="column thermopompe" to="/services/thermopompe">
             <i class="fas fa-home" />
             <div>Thermopompe</div>
           </Link>

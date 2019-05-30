@@ -8,13 +8,13 @@ const Footer = () => (
         <h3>TD Climatisation</h3>
         <ul>
           <li>
-            <Link to="services/climatisation">Climatisation</Link>
+            <Link to="/services/climatisation">Climatisation</Link>
           </li>
           <li>
-            <Link to="services/chauffage">Chauffage</Link>
+            <Link to="/services/chauffage">Chauffage</Link>
           </li>
           <li>
-            <Link to="services/thermopompe">Thermopompe</Link>
+            <Link to="/services/thermopompe">Thermopompe</Link>
           </li>
         </ul>
       </div>
