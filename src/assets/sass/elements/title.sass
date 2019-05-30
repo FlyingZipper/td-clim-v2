@@ -34,6 +34,13 @@ $subtitle-negative-margin: -1.25rem !default
   font-size: $title-size
   font-weight: $title-weight
   line-height: $title-line-height
+  &.white
+    color: $white
+    font-size: 3em
+    font-weight: 400
+  &.is-centered
+    text-align: center
+    padding-bottom: 0.5em
   &.primary
     color: #ffffff
     font-size: 5em
@@ -69,6 +76,8 @@ $subtitle-negative-margin: -1.25rem !default
   line-height: $subtitle-line-height
   &.white
     color: $white
+  &.is-centered
+    text-align: center
   +until($desktop)
     font-size: 1.25em
   +until($tablet)

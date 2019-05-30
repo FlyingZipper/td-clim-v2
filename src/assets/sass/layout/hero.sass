@@ -10,6 +10,7 @@
   background-position: bottom center
   background-color: #F5F5F5
   background-size: cover
+  max-height: 65vh
   
   .navbar
     background: none
@@ -102,6 +103,11 @@
       .hero-body
         padding-bottom: 16rem
         padding-top: 16rem
+        &.vh
+          +from($tablet)
+            display: table
+            padding-bottom: 25vh
+            padding-top: 25vh
         &.darker
           background: rgba(0,0,0,.1)
         &.lighter

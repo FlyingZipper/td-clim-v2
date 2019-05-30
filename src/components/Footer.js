@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Footer = () => (
-  <footer class="footer">
-    <div class="columns">
-      <div class="column">
+  <footer className="footer">
+    <div className="columns">
+      <div className="column">
         <h3>TD Climatisation</h3>
         <ul>
           <li>
@@ -18,9 +18,9 @@ const Footer = () => (
           </li>
         </ul>
       </div>
-      <div class="column">
+      <div className="column">
         <h3>Addresse</h3>
-        <ul class="contact">
+        <ul className="contact">
           <li>
             <span>
               3185 avenue Van Horne
@@ -32,12 +32,16 @@ const Footer = () => (
           </li>
         </ul>
       </div>
-      <div class="column">
+      <div className="column">
         <h3>Nous Suivre</h3>
         <ul>
           <li>
             <h3>Email</h3>
-            <a href="mailto:climatisationtd@gmail.com">
+            <a
+              href="mailto:climatisationtd@gmail.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               climatisationtd@gmail.com
             </a>
           </li>
@@ -47,22 +51,34 @@ const Footer = () => (
           </li>
         </ul>
       </div>
-      <div class="column">
+      <div className="column">
         <h3>Social</h3>
-        <ul class="icons">
+        <ul className="icons">
           <li>
-            <a href="https://www.facebook.com/climatisationTD/" target="_blank">
-              <i class="fab fa-facebook-f" />
+            <a
+              href="https://www.facebook.com/climatisationTD/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="fab fa-facebook-f" />
             </a>
           </li>
           <li>
-            <a href="/#">
-              <i class="fab fa-instagram" />
+            <a
+              href="https://www.facebook.com/climatisationTD/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="fab fa-instagram" />
             </a>
           </li>
           <li>
-            <a href="/#">
-              <i class="fab fa-linkedin-in" />
+            <a
+              href="https://www.facebook.com/climatisationTD/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <i className="fab fa-linkedin-in" />
             </a>
           </li>
         </ul>

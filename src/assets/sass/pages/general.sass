@@ -1,0 +1,67 @@
+.center-content
+    width: fit-content
+    margin: auto
+
+.full-width
+    width: 100vw
+
+.hstrip
+    padding-right: 0
+    padding-left: 0
+    margin-right: 0
+    margin-left: 0
+
+.hstrip-mobile
+    +until($tablet)
+        padding-right: 0
+        padding-left: 0
+        margin-right: 0
+        margin-left: 0
+
+.vstrip
+    padding-top: 0
+    padding-bottom: 0
+    margin-top: 0
+    margin-bottom: 0
+
+.mobile-strip
+    +until($tablet)
+        margin: 0
+        padding: 0
+
+.vpadding-small
+    padding-bottom: 2em
+    padding-top: 2em
+
+.hpadding-small
+    padding-right: 2em
+    padding-left: 2em
+
+.bg-lightblue
+    background: #F8F9FD
+
+.third-height
+    height: 33.3%
+    margin-bottom: 1em
+    padding-right: 10em
+    +until($tablet)
+        margin-bottom: 3em
+        padding-right: 0em
+        padding-left: 2em
+
+.padding-left-medium
+    padding-left: 10em
+    +until($tablet)
+        padding-left: 0em
+
+.mobile-hide
+    +until($tablet)
+        display: none
+
+.circular-i
+    height: 45px
+    width: 45px
+    border: $blue solid 1.5px
+    background: white
+    border-radius: 50em
+    padding: 0.4em

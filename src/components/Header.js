@@ -1,12 +1,17 @@
+/* eslint-disable */
 import React from "react"
 import Logo from "../images/logo.svg"
 
 import { Link } from "gatsby"
 
 const Header = () => (
-  <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div class="navbar-item">
+  <nav
+    className="navbar is-spaced"
+    role="navigation"
+    aria-label="main navigation"
+  >
+    <div className="navbar-brand">
+      <div className="navbar-item">
         <Link to="/">
           <img src={Logo} alt="" />
         </Link>
@@ -14,7 +19,7 @@ const Header = () => (
 
       <a
         role="button"
-        class="navbar-burger burger"
+        className="navbar-burger burger"
         aria-label="menu"
         aria-expanded="false"
         data-target="navbarBasicExample"
@@ -25,44 +30,44 @@ const Header = () => (
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link is-arrowless">Services</a>
+    <div id="navbarBasicExample" className="navbar-menu">
+      <div className="navbar-start">
+        <div className="navbar-item has-dropdown is-hoverable">
+          <a className="navbar-link is-arrowless">Services</a>
 
-          <div class="navbar-dropdown">
-            <a class="navbar-item">
-              <Link to="/services/climatisation">Climatisation</Link>
-            </a>
-            <a class="navbar-item">
-              <Link to="/services/chauffage">Chauffage</Link>
-            </a>
-            <a class="navbar-item">
-              <Link to="/services/thermopompe">Thermopompe</Link>
-            </a>
+          <div className="navbar-dropdown">
+            <Link className="navbar-item" to="/services/climatisation">
+              Climatisation
+            </Link>
+            <Link className="navbar-item" to="/services/chauffage">
+              Chauffage
+            </Link>
+            <Link className="navbar-item" to="/services/thermopompe">
+              Thermopompe
+            </Link>
           </div>
         </div>
 
-        <a class="navbar-item">
-          <Link to="/entretien">Entretien</Link>
-        </a>
+        <Link className="navbar-item" to="/entretien">
+          Entretien
+        </Link>
 
-        <a class="navbar-item">
-          <Link to="/about">A propos</Link>
-        </a>
+        <Link className="navbar-item" to="/about">
+          A propos
+        </Link>
 
-        <a class="navbar-item">
-          <Link to="/jobs">Carriere</Link>
-        </a>
+        <Link className="navbar-item" to="/jobs">
+          Carriere
+        </Link>
       </div>
 
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <Link to="/soumission">
-            <div class="buttons">
-              <a class="button">Demande de soumission</a>
-            </div>
-          </Link>
+      <div className="navbar-end">
+        <div className="navbar-item">
+          <div className="buttons">
+            <Link className="button primary" to="/soumission">
+              Demande de soumission
+            </Link>
+          </div>
         </div>
       </div>
     </div>

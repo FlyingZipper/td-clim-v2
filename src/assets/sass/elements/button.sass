@@ -1,5 +1,8 @@
-$button-color: $white !default
-$button-background-color: $primary-color !default
+$button-color: $grey-dark !default
+$button-background-color: $white !default
+
+$button-color-primary: $white!default
+$button-background-color-primary: $primary-color !default
 
 $button-border-color: $grey-lighter !default
 $button-border-width: $control-border-width !default
@@ -7,8 +10,9 @@ $button-border-width: $control-border-width !default
 $button-padding-vertical: calc(0.375em - #{$button-border-width}) !default
 $button-padding-horizontal: 0.75em !default
 
-$button-hover-color: $white !default
-$button-hover-background-color: darken($primary-color, 10) !default
+$button-hover-color: $grey-dark !default
+$button-hover-background-color: $grey-light !default
+$button-hover-background-color-primary: darken($primary-color, 10) !default
 $button-hover-border-color: $grey-lighter !default
 
 $button-focus-color: $white !default
@@ -59,6 +63,12 @@ $button-static-border-color: $grey-lighter !default
   text-align: center
   white-space: nowrap
   transition: all .2s ease 0s
+  &.primary
+    color: $button-color-primary
+    background-color: $button-background-color-primary
+    &:hover
+      color: $button-color-primary
+      background-color: $button-hover-background-color-primary
   strong
     color: inherit
   .icon
