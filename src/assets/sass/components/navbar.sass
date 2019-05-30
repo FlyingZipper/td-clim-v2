@@ -8,8 +8,8 @@ $navbar-z: 30 !default
 $navbar-fixed-z: 30 !default
 
 $navbar-item-color: $grey-dark !default
-$navbar-item-hover-color: $link !default
-$navbar-item-hover-background-color: $white-bis !default
+$navbar-item-hover-color: $primary-color !default
+$navbar-item-hover-background-color: $white !default
 $navbar-item-active-color: $black !default
 $navbar-item-active-background-color: transparent !default
 $navbar-item-img-max-height: 1.75rem !default
@@ -34,10 +34,10 @@ $navbar-dropdown-z: 20 !default
 $navbar-dropdown-boxed-radius: $radius-large !default
 $navbar-dropdown-boxed-shadow: 0 8px 8px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
 
-$navbar-dropdown-item-hover-color: $black !default
-$navbar-dropdown-item-hover-background-color: $background !default
-$navbar-dropdown-item-active-color: $link !default
-$navbar-dropdown-item-active-background-color: $background !default
+$navbar-dropdown-item-hover-color: $primary-color !default
+$navbar-dropdown-item-hover-background-color: $white !default
+$navbar-dropdown-item-active-color: $black !default
+$navbar-dropdown-item-active-background-color: $white !default
 
 $navbar-divider-background-color: $background !default
 $navbar-divider-height: 2px !default
@@ -288,7 +288,7 @@ a.navbar-item,
       .navbar-link
         &:hover,
         &.is-active
-          background-color: transparent !important
+          background-color: red !important
       .navbar-item.has-dropdown
         &.is-active,
         &.is-hoverable:hover

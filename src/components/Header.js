@@ -5,7 +5,7 @@ const Header = () => (
   <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
-        <img src={Logo} />
+        <img src={Logo} alt="" />
       </a>
 
       <a

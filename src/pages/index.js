@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,7 +12,7 @@ const IndexPage = () => (
       <div class="hero-body lighter">
         <div class="container has-text-centered">
           <h1 class="title primary">
-            <img src={Logo} />
+            <img src={Logo} alt="" />
             TD Climatisation
           </h1>
           <h2 class="subtitle">Le confort chez vous</h2>
