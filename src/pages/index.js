@@ -1,5 +1,5 @@
 import React from "react"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,18 +22,18 @@ const IndexPage = () => (
     <section class="section no-padding">
       <div class="container">
         <div class="columns services is-vcentered">
-          <div class="column climatisation">
+          <Link class="column climatisation" to="services/climatisation">
             <i class="fas fa-snowflake" />
             <div>Climatisation</div>
-          </div>
-          <div class="column chauffage">
+          </Link>
+          <Link class="column chauffage" to="services/chauffage">
             <i class="fab fa-gripfire" />
             <div>Chauffage</div>
-          </div>
-          <div class="column thermopompe">
+          </Link>
+          <Link class="column thermopompe" to="services/thermopompe">
             <i class="fas fa-home" />
             <div>Thermopompe</div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

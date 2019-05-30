@@ -1,5 +1,5 @@
 import React from "react"
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 const Footer = () => (
   <footer class="footer">
@@ -7,9 +7,15 @@ const Footer = () => (
       <div class="column">
         <h3>TD Climatisation</h3>
         <ul>
-          <li>Climatisation</li>
-          <li>Chauffage</li>
-          <li>Thermopompe</li>
+          <li>
+            <Link to="services/climatisation">Climatisation</Link>
+          </li>
+          <li>
+            <Link to="services/chauffage">Chauffage</Link>
+          </li>
+          <li>
+            <Link to="services/thermopompe">Thermopompe</Link>
+          </li>
         </ul>
       </div>
       <div class="column">
@@ -31,7 +37,7 @@ const Footer = () => (
         <ul>
           <li>
             <h3>Email</h3>
-            <a href="email:[climatisationtd@gmail.com]">
+            <a href="mailto:climatisationtd@gmail.com">
               climatisationtd@gmail.com
             </a>
           </li>
@@ -45,7 +51,7 @@ const Footer = () => (
         <h3>Social</h3>
         <ul class="icons">
           <li>
-            <a href="/#">
+            <a href="https://www.facebook.com/climatisationTD/" target="_blank">
               <i class="fab fa-facebook-f" />
             </a>
           </li>
