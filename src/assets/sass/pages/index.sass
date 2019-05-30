@@ -1,0 +1,38 @@
+// Products - CCT
+div.columns.services > .column
+    cursor: pointer
+    transition: all .3s ease 0s
+    color: black
+    font-size: 1.25em
+    padding: 2em 0em
+    background: $bg-light
+    text-transform: uppercase
+    font-weight: 300
+    i
+        font-size: 2em
+        padding-bottom: 0.5em
+    &:hover
+        color: #FFFFFF
+    &.climatisation 
+        i
+            color: $teal
+        &:hover
+            background: $teal
+            i
+                color: #FFFFFF
+    &.chauffage
+        i
+            color: $orange
+        &:hover
+            background: $orange
+            i
+                color: #FFFFFF
+    &.thermopompe 
+        i
+            color: $blue
+        &:hover
+            background: $blue
+            i
+                color: #FFFFFF
+    &:nth-child(1), &:nth-child(2)
+        border-right: $border 1px solid
