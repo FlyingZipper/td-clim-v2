@@ -42,7 +42,6 @@ div.columns.services > .column
 
 h1.title.promote
     text-align: center
-    padding-bottom: 0.5em
     font-size: 3em
     font-weight: 400
     +until($tablet)
@@ -77,3 +76,10 @@ h2
     padding-bottom: 0.5em
     &.blue
         color: #124686
+
+a.navbar-item,
+a.button.primary
+    +from($desktop)
+        font-size: 1.2rem
+    +from($tablet)
+        font-size: 1.1rem
